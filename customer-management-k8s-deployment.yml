@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: customer-management-service-app
-        image: harbor.tanzu.cloudification.in/library/customer-management-service-app-demo
+        image: rajivmca2004/customer-management-service
         ports:
         - containerPort: 8011
           name: server

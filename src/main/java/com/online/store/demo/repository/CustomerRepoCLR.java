@@ -28,7 +28,6 @@ public class CustomerRepoCLR implements CommandLineRunner {
 		customerRepository.save(new Customer("John Stevens", "john@test.com"));
 		customerRepository.save(new Customer("Sharad Verma", "sharad@test.com"));
 		
-		System.out.println("***************** CUSTOMER SERVICE :: http://127.0.0.1:8011 ");
 		customerRepository.findAll().forEach(System.out::println);
 	}
 }

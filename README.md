@@ -1,1 +1,1 @@
-# customer-management-service
+# customer-service

@@ -1,4 +1,4 @@
-# Docker Image name: customer-management-service-app-demo
+# Docker Image name: customer-service-app-demo
 
 # Use the official image as a parent image.
 FROM openjdk:8-jdk-alpine

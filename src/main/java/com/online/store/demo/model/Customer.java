@@ -10,7 +10,6 @@ import javax.persistence.Id;
  * @author rasrivastava
  *
  */
-@SuppressWarnings("unused")
 @Entity
 public class Customer {
 	
@@ -56,9 +55,9 @@ public class Customer {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+    
 	@Override
 	public String toString() {
 		return "Customer [id=" + id + ", name=" + name + ", email=" + email + "]";
 	}
-    
 }

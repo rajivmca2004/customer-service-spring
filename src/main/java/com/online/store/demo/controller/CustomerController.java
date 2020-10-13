@@ -18,11 +18,13 @@ public class CustomerController {
 	
 	@Autowired
 	private CustomerRepository customerRepository;
+
     
     @GetMapping("/customers")
-    public Object fetchCustomers ()
+    public Object fetchCustomers()
     {
         List<Customer> customers = customerRepository.findAll();
         return customers;
     }
+
 }

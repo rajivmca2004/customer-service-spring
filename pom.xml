@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.online.store.demo</groupId>
-	<artifactId>customer-service</artifactId>
+	<artifactId>customer-service-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>customer-service</name>
+	<name>customer-service-spring</name>
 	<description>Customer management project for SpringBoot K8s Demo</description>
 
 	<properties>
